@@ -12,7 +12,7 @@ function addTask(){
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
         let span = document.createElement('span');
-        span.innerHTML = "\u00d7";
+        span.innerHTML = "\u00d7";   //unicode for x
         li.appendChild(span);
     }
     //After adding the task now the inputBox should be empty again
